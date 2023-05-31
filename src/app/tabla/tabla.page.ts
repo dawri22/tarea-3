@@ -12,6 +12,7 @@ export class TablaPage implements OnInit {
 
   multiplicar(numero: number){
     if(numero!=null){
+      this.list = [""];
     for(let i = 0; i < 14; i++){
       this.list.push(` ${numero} X ${i}= ${i*numero}`);
     }
